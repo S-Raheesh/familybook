@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>The family book</title>
+    <body>
+        <h1>The family book</h1>
+        <hr> <hr>
+        <img id="family_img" src="61zTGIEvQoL.jpg">
+        <h3 id="one">1.Family book</h3>
+        <button type="button" onclick="family()">Next</button>
+        <hr>
+        <script>
+            var names=[
+                "2.Syed Ibrahim Shah (My Father)",
+                "3.Rabia (My mom)",
+                "4.Raheesh (me)"
+            ];
+            var images=[
+                "download.png",
+                "download(1).png",
+                "boy.jpg"
+            ];
+            var i=0;
+            function family(){
+                document.getElementById("one").innerHTML=names[i];
+                document.getElementById("family_img").src=images[i];
+                i++;
+                if(i==3){
+                    i==0;
+                }}
+                </script>
+                </body>
+        </script>
+    </body>
+</html>
